@@ -1,4 +1,3 @@
-// Handles Organic Waste
 class OrganicCollector extends WasteCollector {
     @Override
     public void collect(WasteContainer container) {
@@ -10,7 +9,6 @@ class OrganicCollector extends WasteCollector {
     }
 }
 
-// Handles Recyclable Waste
 class RecyclableCollector extends WasteCollector {
     @Override
     public void collect(WasteContainer container) {
@@ -22,7 +20,6 @@ class RecyclableCollector extends WasteCollector {
     }
 }
 
-// Handles Hazardous Waste
 class HazardousCollector extends WasteCollector {
     @Override
     public void collect(WasteContainer container) {
